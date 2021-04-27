@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Uncomment the script below if you need to support browsers where CSS Variables have not been implemented (e.g., IE11) -->
+  <!-- <script>
+    if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
+  </script> -->
+  <title>About us</title>
+</head>
+
+<body>
+  <div class="inner-container">
+    <a class="back-to-top js-back-to-top" href="#" data-offset="100" data-duration="300">
+      <svg class="icon" viewBox="0 0 16 16">
+        <title>Go to top of page</title>
+        <g stroke-width="1" stroke="currentColor">
+          <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline>
+        </g>
+      </svg>
+    </a>
+    <header class="f-header position-relative js-f-header">
+      <div class="f-header__mobile-content container max-width-lg">
+        <a href="index.html" class="f-header__logo">
+          <img src="images/logo/1a135e025ea6efb74739a5352acae87cd7553780.png"></img>
+        </a>
+
+        <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus"
+          aria-label="Toggle menu">
+          <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <div class="f-header__nav" role="navigation">
+        <div class="f-header__nav-grid justify-between@md container max-width-lg">
+          <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0">
+            <a href="index.html" class="f-header__logo">
+              <img src="images/logo/1a135e025ea6efb74739a5352acae87cd7553780.png"></img>
+            </a>
+          </div>
+
+          <ul class="f-header__list flex-grow flex-basis-0 justify-center@md">
+            <li class="f-header__item"><a href="index.html" class="f-header__link" aria-current="page">About us</a></li>
+            <li class="f-header__item"><a href="packages.html" class="f-header__link">Packages</a></li>
+            <li class="f-header__item"><a href="contact-us.html" class="f-header__link">Book/Contact</a></li>
+            <li class="f-header__item"><a href="igloos-for-sale.html" class="f-header__link">Igloos For Sale</a></li>
+            <li class="f-header__item">
+              <a href="#0" class="f-header__link f-header__hidden">
+                <span>More</span>
+                <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                  <path d="M6,9l4-5H2Z" />
+                </svg>
+              </a>
+              <ul class="f-header__dropdown">
+                <li><a href="reviews.html" class="f-header__dropdown-link f-header__underline">Reviews</a></li>
+                <li><a href="bookingT&Cs.html" class="f-header__dropdown-link f-header__underline">Booking T&Cs</a></li>
+                <li><a href="FAQs.html" class="f-header__dropdown-link">FAQs</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="f-header__list flex-grow flex-basis-0 justify-end@md">
+            <li class="f-header__item">
+              <a href="mailto:info@theigloocompany.co.uk" class="f-header__link f-header__link--icon"
+                aria-label="Send us an Email">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z">
+                  </path>
+                </svg>
+                <span class="margin-left-xxs text-sm">Send us an Email</span>
+              </a>
+            </li>
+
+            <li class="f-header__item">
+              <a href="https://www.facebook.com/THEIGLOOCOMPANY" target="_blank"
+                class="f-header__link f-header__link--icon" aria-label="Follow us on Facebook">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <path
+                    d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+                  </path>
+                </svg>
+                <span class="margin-left-xxs text-sm">Follow us on Facebook</span>
+              </a>
+            </li>
+
+            <li class="f-header__item">
+              <a href="https://www.instagram.com/theigloocompany__/" target="_blank"
+                class="f-header__link f-header__link--icon" aria-label="Follow us on Instagram">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z">
+                  </path>
+                </svg>
+                <span class="margin-left-xxs text-sm">Follow us on Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="main-container">
+    <div class="alert-card bg radius-md padding-md shadow-xs js-alert-card">
+      <div class="text-component text-sm line-height-lg">
+        <h1 class="text-lg flex flex-wrap gap-xxxs items-center padding-right-lg">
+          <div>
+            <svg class="block icon icon--md" viewBox="0 0 48 48" aria-hidden="true">
+              <path
+                d="M46.019,38.447,26.566,6.309a3,3,0,0,0-5.132,0L1.982,38.447A3,3,0,0,0,4.548,43h38.9a3,3,0,0,0,2.568-4.553Z"
+                opacity="0.5" fill="var(--color-warning)" />
+              <g fill="var(--color-contrast-higher)">
+                <polygon points="25.757 16.182 25.481 31.725 22.53 31.725 22.252 16.182 25.757 16.182" />
+                <circle cx="24" cy="36" r="2" />
+              </g>
+            </svg>
+          </div>
+          <span>This is an important message</span>
+        </h1>
+
+        <p class="color-contrast-medium">We are fully COVID safe! You can enjoy our igloos with your household /
+          bubble.
+        </p>
+        <p class="color-contrast-medium">- No close contact</p>
+        <p class="color-contrast-medium">- Outdoor setup</p>
+        <p class="color-contrast-medium">- Fully sanitised</p>
+      </div>
+
+      <button class="reset alert-card__close-btn js-tab-focus js-alert-card__close-btn">
+        <svg class="icon icon--xs" viewBox="0 0 16 16">
+          <title>Hide alert</title>
+          <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <line x1="1" y1="1" x2="15" y2="15" />
+            <line x1="15" y1="1" x2="1" y2="15" />
+          </g>
+        </svg>
+      </button>
+    </div>
+
+    <section class="hero hero--overlay-layer position-relative padding-y-mix">
+      <div class="container max-width-adaptive-sm">
+        <div class="position-relative z-index-2 text-center">
+
+          <div class="text-component margin-bottom-sm">
+            <h1 style="text-decoration:underline;">The Igloo Company</h1>
+            <p style="color:#000">A unique, cosy indoor experience under the stars with a 360 view ready to
+              hire for any occasion.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <ul class="flex gap-xs flex-wrap justify-center">
+        <li>
+          <a href="mailto:info@theigloocompany.co.uk" target="_blank" class="author__social">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <title>Send us an Email</title>
+              <path
+                d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z">
+              </path>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/THEIGLOOCOMPANY" target="_blank" class="author__social">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Follow us on Facebook</title>
+              <path
+                d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+              </path>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/theigloocompany__/" target="_blank" class="author__social">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Follow us on Instagram</title>
+              <path
+                d="M16,3.7c4,0,4.479.015,6.061.087a6.426,6.426,0,0,1,4.51,1.639,6.426,6.426,0,0,1,1.639,4.51C28.282,11.521,28.3,12,28.3,16s-.015,4.479-.087,6.061a6.426,6.426,0,0,1-1.639,4.51,6.425,6.425,0,0,1-4.51,1.639c-1.582.072-2.056.087-6.061.087s-4.479-.015-6.061-.087a6.426,6.426,0,0,1-4.51-1.639,6.425,6.425,0,0,1-1.639-4.51C3.718,20.479,3.7,20.005,3.7,16s.015-4.479.087-6.061a6.426,6.426,0,0,1,1.639-4.51A6.426,6.426,0,0,1,9.939,3.79C11.521,3.718,12,3.7,16,3.7M16,1c-4.073,0-4.584.017-6.185.09a8.974,8.974,0,0,0-6.3,2.427,8.971,8.971,0,0,0-2.427,6.3C1.017,11.416,1,11.927,1,16s.017,4.584.09,6.185a8.974,8.974,0,0,0,2.427,6.3,8.971,8.971,0,0,0,6.3,2.427c1.6.073,2.112.09,6.185.09s4.584-.017,6.185-.09a8.974,8.974,0,0,0,6.3-2.427,8.971,8.971,0,0,0,2.427-6.3c.073-1.6.09-2.112.09-6.185s-.017-4.584-.09-6.185a8.974,8.974,0,0,0-2.427-6.3,8.971,8.971,0,0,0-6.3-2.427C20.584,1.017,20.073,1,16,1Z">
+              </path>
+              <path d="M16,8.3A7.7,7.7,0,1,0,23.7,16,7.7,7.7,0,0,0,16,8.3ZM16,21a5,5,0,1,1,5-5A5,5,0,0,1,16,21Z">
+              </path>
+              <circle cx="24.007" cy="7.993" r="1.8"></circle>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="diagonal-section diagonal-section--flip-x bg-contrast-lower margin-bottom-sm">
+      <div class="container max-width-adaptive-sm padding-y-xxl">
+        <div class="text-center">
+
+          <div class="text-component margin-bottom-sm">
+            <h2 style="text-decoration:underline;">About Us</h2>
+            <p>Create a magical feel at home in your garden with our igloos.<br>
+              A unique, cosy indoor experience that can be hired all-year-round.<br>
+              Our Igloos seat 8-10 people comfortably and can be used and are adaptable to anything!<br>
+              Whether you are having a themed adults dinner party or a Childs birthday party, we've got you
+              covered.<br>
+              Our igloos can be decorated with lights, balloons and anything extra to add to the magic.
+            </p>
+          </div>
+
+          <div class="text-sm opacity-60% margin-bottom-lg">Our igloos are made from a durable steel frame, covered
+            with a transparent pvc cover and can withstand wind speeds of up
+            to 70mph. In the colder months, we provide heating, blankets and cushions so that you and your guests can
+            thoroughly
+            enjoy the outside experience.
+          </div>
+
+          <ul class="list list--ul">
+            <p class="margin-bottom-sm" style="text-decoration:underline;">We can supply everything you need to have a
+              truly magical experience in our igloos</p>
+            <p class="margin-bottom-sm" style="text-decoration:underline;">Perfect for:</p>
+            <li>Date Nights</li>
+            <li>Engagements</li>
+            <li>Celebrations</li>
+            <li>Cocktail Parties</li>
+            <li>Movie Nights</li>
+            <li>Dinner parties</li>
+            <li>Childrens Birthdays</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="grid gap-sm margin-bottom-md">
+
+        <div class="card-v2 radius-md col-3@md">
+          <figure>
+            <img src="images/other/9a8c0755f3b37781a400e64088df3246e5681db3.png">
+          </figure>
+        </div>
+
+        <div class="card-v2 radius-md col-3@md">
+          <figure>
+            <img src="images/other/135529531_101145358606901_5176285842284810782_o.png">
+          </figure>
+        </div>
+
+        <div class="card-v2 radius-md col-3@md">
+          <figure>
+            <img src="images/other/136111461_102774241777346_2921558087342331997_o.png">
+          </figure>
+        </div>
+
+        <div class="card-v2 radius-md col-3@md">
+          <figure>
+            <img src="images/other/137305009_104363594951744_4830474763194752504_o.png">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="carousel flex flex-column js-carousel" data-drag="on">
+
+      <div class="carousel__wrapper order-2 overflow-hidden">
+        <ol class="carousel__list">
+          <li class="carousel__item">
+            <img src="images/other/9a8c0755f3b37781a400e64088df3246e5681db3.png"></img>
+          </li>
+
+          <li class="carousel__item">
+            <img src="images/other/135529531_101145358606901_5176285842284810782_o.png"></img>
+          </li>
+
+          <li class="carousel__item">
+            <img src="images/other/136111461_102774241777346_2921558087342331997_o.png"></img>
+          </li>
+
+          <li class="carousel__item">
+            <img src="images/other/137305009_104363594951744_4830474763194752504_o.png"></img>
+          </li>
+        </ol>
+      </div>
+
+      <nav class="margin-bottom-xs order-1 no-js:is-hidden">
+        <ul class="flex gap-xxxs justify-end">
+          <li>
+            <button class="reset carousel__control carousel__control--prev js-carousel__control js-tab-focus">
+              <svg class="icon" viewBox="0 0 20 20">
+                <title>Previous</title>
+                <polyline points="13 18 5 10 13 2" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" />
+              </svg>
+            </button>
+          </li>
+
+          <li>
+            <button class="reset carousel__control carousel__control--next js-carousel__control js-tab-focus">
+              <svg class="icon" viewBox="0 0 20 20">
+                <title>Next</title>
+                <polyline points="7 18 15 10 7 2" fill="none" stroke="currentColor" stroke-miterlimit="10"
+                  stroke-width="2" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section>
+    <div class="container max-width-adaptive-lg">
+      <div class="margin-bottom-lg">
+        <h1 class="text-center" style="text-decoration: underline;">Recent Reviews</h1>
+      </div>
+
+      <div class="grid gap-sm justify-center margin-bottom-md">
+        <div class="bg-contrast-lower radius-md padding-md text-center flex@md flex-column@md col-4@md">
+          <div class="rating rating--read-only js-rating js-rating--read-only margin-bottom-sm">
+            <p class="sr-only">The rating of this product is <span class="rating__value js-rating__value">5</span> out
+              of 5</p>
+
+            <div class="rating__control rating__control--is-hidden js-rating__control">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <polygon
+                  points="12 1.489 15.09 7.751 22 8.755 17 13.629 18.18 20.511 12 17.261 5.82 20.511 7 13.629 2 8.755 8.91 7.751 12 1.489"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+
+          <blockquote class="line-height-md margin-bottom-md" style="font-style: italic;">"We had the most amazing
+            date
+            night in one of these igloos
+            for my boyfriends birthday during lockdown, the team booked us in quickly, came and set it up just how I
+            wanted it and nothing was too much trouble. highly recommend and will definitely use again!
+            thank you the igloo company"</blockquote>
+
+          <footer class="flex flex-column items-center margin-top-auto@md">
+            <cite class="text-sm">
+              <strong>Emily Laurence</strong>
+              <span class="block color-contrast-medium margin-top-xxxxs">Hertfordshire</span>
+            </cite>
+          </footer>
+        </div>
+
+        <div class="bg-contrast-lower radius-md padding-md text-center flex@md flex-column@md col-4@md">
+          <div class="rating rating--read-only js-rating js-rating--read-only margin-bottom-sm">
+            <p class="sr-only">The rating of this product is <span class="rating__value js-rating__value">5</span> out
+              of 5</p>
+
+            <div class="rating__control rating__control--is-hidden js-rating__control">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <polygon
+                  points="12 1.489 15.09 7.751 22 8.755 17 13.629 18.18 20.511 12 17.261 5.82 20.511 7 13.629 2 8.755 8.91 7.751 12 1.489"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+
+          <blockquote class="line-height-md margin-bottom-md" style="font-style: italic;">"Everything we could've
+            wanted and more! The hot tub package really made our anniversary so special, every last detail was 
+            thought of. We can't recommend The Igloo Company enough!"</blockquote>
+
+          <footer class="flex flex-column items-center margin-top-auto@md">
+            <cite class="text-sm">
+              <strong>Dan & Olivia</strong>
+              <span class="block color-contrast-medium margin-top-xxxxs">St Albans</span>
+            </cite>
+          </footer>
+        </div>
+
+        <div class="bg-contrast-lower radius-md padding-md text-center flex@md flex-column@md col-4@md">
+          <div class="rating rating--read-only js-rating js-rating--read-only margin-bottom-sm">
+            <p class="sr-only">The rating of this product is <span class="rating__value js-rating__value">5</span> out
+              of 5</p>
+
+            <div class="rating__control rating__control--is-hidden js-rating__control">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <polygon
+                  points="12 1.489 15.09 7.751 22 8.755 17 13.629 18.18 20.511 12 17.261 5.82 20.511 7 13.629 2 8.755 8.91 7.751 12 1.489"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+
+          <blockquote class="line-height-md margin-bottom-md" style="font-style: italic;">"100% recommended the Igloo 
+            Company! We had such a good night celebrating my birthday with the movie package, it felt so special."</blockquote>
+
+          <footer class="flex flex-column items-center margin-top-auto@md">
+            <cite class="text-sm">
+              <strong>Amelia</strong>
+              <span class="block color-contrast-medium margin-top-xxxxs">Essex</span>
+            </cite>
+          </footer>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <a class="btn-fx-1" href="reviews.html">
+        <div class="btn-fx-1__inner padding-y-xs padding-x-sm">
+          <span>View All</span>
+      
+          <div class="btn-fx-1__icon-wrapper" aria-hidden="true">
+            <svg class="icon margin-left-xxs" viewBox="0 0 20 20"><polyline points="8 5 13 10 8 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+      
+            <svg class="icon margin-left-xxs" viewBox="0 0 20 20"><polyline points="8 5 13 10 8 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="main-footer" style="padding-bottom: var(--space-lg);">
+    <div class="container max-width-lg">
+
+      <div class="main-footer__colophon border-top padding-top-xs margin-top-lg">
+        <div class="text-sm text-xs@md color-contrast-medium flex flex-wrap gap-xs">
+          <span>&copy; Copyright. All rights reserved.</span>
+        </div>
+
+        <div class="flex items-center gap-xs">
+          <a href="https://www.facebook.com/THEIGLOOCOMPANY" target="_blank" class="main-footer__social">
+            <svg class="icon block" viewBox="0 0 32 32">
+              <title>Follow us on Facebook</title>
+              <g>
+                <path
+                  d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+                </path>
+              </g>
+            </svg>
+          </a>
+
+          <a href="https://www.instagram.com/theigloocompany__/" target="_blank" class="main-footer__social">
+            <svg class="icon block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <title>Follow us on Instagram</title>
+              <g>
+                <path
+                  d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/alert-card.js"></script>
+  <script src="assets/js/flexi-header.js"></script>
+  <script src="assets/js/anim-menu-btn.js"></script>
+  <script src="assets/js/accordion.js"></script>
+  <script src="assets/js/swipe-content.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/ratings.js"></script>
+  <script src="assets/js/back-to-top.js"></script>
+</body>
+
+</html>

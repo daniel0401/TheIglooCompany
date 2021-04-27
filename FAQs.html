@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Uncomment the script below if you need to support browsers where CSS Variables have not been implemented (e.g., IE11) -->
+    <!-- <script>
+    if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
+  </script> -->
+    <title>FAQs</title>
+</head>
+
+<body>
+    <div class="inner-container">
+        <a class="back-to-top js-back-to-top" href="#" data-offset="100" data-duration="300">
+            <svg class="icon" viewBox="0 0 16 16">
+                <title>Go to top of page</title>
+                <g stroke-width="1" stroke="currentColor">
+                    <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline>
+                </g>
+            </svg>
+        </a>
+        <header class="f-header position-relative js-f-header">
+            <div class="f-header__mobile-content container max-width-lg">
+                <a href="index.html" class="f-header__logo">
+                    <img src="images/logo/1a135e025ea6efb74739a5352acae87cd7553780.png">
+                    <title>Go to homepage</title></img>
+                </a>
+
+                <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus"
+                    aria-label="Toggle menu">
+                    <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="f-header__nav" role="navigation">
+                <div class="f-header__nav-grid justify-between@md container max-width-lg">
+                    <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0">
+                        <a href="index.html" class="f-header__logo">
+                            <img src="images/logo/1a135e025ea6efb74739a5352acae87cd7553780.png">
+                            <title>Go to homepage</title></img>
+                        </a>
+                    </div>
+
+                    <ul class="f-header__list flex-grow flex-basis-0 justify-center@md">
+                        <li class="f-header__item"><a href="index.html" class="f-header__link">About us</a></li>
+                        <li class="f-header__item"><a href="packages.html" class="f-header__link">Packages</a></li>
+                        <li class="f-header__item"><a href="contact-us.html" class="f-header__link">Book/Contact</a></li>
+                        <li class="f-header__item"><a href="igloos-for-sale.html" class="f-header__link">Igloos For Sale</a></li>
+                        <li class="f-header__item">
+                            <a href="#0" class="f-header__link f-header__hidden">
+                                <span>More</span>
+                                <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                                    <path d="M6,9l4-5H2Z" />
+                                </svg>
+                            </a>
+                            <ul class="f-header__dropdown">
+                                <li><a href="reviews.html" class="f-header__dropdown-link f-header__underline">Reviews</a></li>
+                                <li><a href="bookingT&Cs.html" class="f-header__dropdown-link f-header__underline">Booking T&Cs</a></li>
+                                <li><a href="FAQs.html" class="f-header__dropdown-link" aria-current="page">FAQs</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="f-header__list flex-grow flex-basis-0 justify-end@md">
+                        <li class="f-header__item">
+                            <a href="mailto:info@theigloocompany.co.uk" class="f-header__link f-header__link--icon"
+                                aria-label="Send us an Email">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                                </svg>
+                                <span class="margin-left-xxs">Send us an Email</span>
+                            </a>
+                        </li>
+
+                        <li class="f-header__item">
+                            <a href="https://www.facebook.com/THEIGLOOCOMPANY" target="_blank"
+                                class="f-header__link f-header__link--icon" aria-label="Follow us on Facebook">
+                                <svg class="icon" viewBox="0 0 32 32">
+                                    <path
+                                        d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+                                    </path>
+                                </svg>
+                                <span class="margin-left-xxs">Follow us on Facebook</span>
+                            </a>
+                        </li>
+
+                        <li class="f-header__item">
+                            <a href="https://www.instagram.com/theigloocompany__/" target="_blank"
+                                class="f-header__link f-header__link--icon" aria-label="Follow us on Instagram">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                                </svg>
+                                <span class="margin-left-xxs">Follow us on Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container margin-bottom-sm max-width-sm max-margin-sm">
+                <div class="margin-bottom-lg">
+                    <h1 class="text-center" style="text-decoration:underline;">FAQs</h1>
+                </div>
+
+                <ul class="accordion js-accordion" data-animation="on" data-multi-items="on">
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">Can I Hire For More Than One Evening?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>Yes, absolutely! we do a reduced rate for more than one evening!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">Can I Decorate It Exacly How I Want It?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>Of course! you can either let us on in on your vision and we will create some
+                                    magic...
+                                </p>
+                                <p>or we can leave it up to you and let you decorate it yourself!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">How Far In Advance Do I Have To Book?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>We get booked up super quickly and as a small team we can only take a number of
+                                    booking
+                                    so we recommend booking least 3
+                                    months in advance, however this doesn't always mean we won't have availability for a
+                                    sooner date.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">Can We Still Do This With Lockdown Restrictions?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>Of course! This is perfect for celebrating lockdown birthdays in your bubbles,
+                                    actually
+                                    we've been even more popular
+                                    throughout our lockdown!</p>
+                                <p>bring a bit of fun home, take away from being locked away and have dinner under the
+                                    stars!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">Where Do You Cover?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>We cover all Hertfordshire, Bedfordshire, Essex, Cambridgeshire, London and
+                                    surrounding
+                                    areas</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accordion__item  js-accordion__item">
+                        <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+                            <span class="text-md">My Garden Is Small, Will It Fit?</span>
+
+                            <svg class="icon accordion__icon-arrow-v2 no-js:is-hidden" viewBox="0 0 16 16"
+                                aria-hidden="true">
+                                <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                                    stroke-miterlimit="10">
+                                    <path d="M2 2l12 12" />
+                                    <path d="M14 2L2 14" />
+                                </g>
+                            </svg>
+                        </button>
+
+                        <div class="accordion__panel js-accordion__panel">
+                            <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
+                                <p>Our domes are 4m wide, with a 360 view. this should fit pretty much any garden, flat
+                                    surfaces are preferred!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer" style="padding-bottom: var(--space-lg);">
+        <div class="container max-width-lg">
+
+            <div class="main-footer__colophon border-top padding-top-xs margin-top-lg">
+                <div class="text-sm text-xs@md color-contrast-medium flex flex-wrap gap-xs">
+                    <span>&copy; Copyright. All rights reserved.</span>
+                </div>
+
+                <div class="flex items-center gap-xs">
+                    <a href="https://www.facebook.com/THEIGLOOCOMPANY" target="_blank" class="main-footer__social">
+                        <svg class="icon block" viewBox="0 0 32 32">
+                            <title>Follow us on Facebook</title>
+                            <g>
+                                <path
+                                    d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a href="https://www.instagram.com/theigloocompany__/" target="_blank" class="main-footer__social">
+                        <svg class="icon block" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <title>Follow us on Instagram</title>
+                            <g>
+                                <path
+                                    d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/flexi-header.js"></script>
+    <script src="assets/js/anim-menu-btn.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/back-to-top.js"></script>
+</body>
+
+</html>
